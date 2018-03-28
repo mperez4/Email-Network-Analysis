@@ -10,5 +10,7 @@ Clone this repository and add your data files to /data.
 
 `pwd`
 
-`docker run -it -p 8888:8888 -v path-to-data-folder:/home/insight/data insight-ena bash` 
+`cd ../`
+
+`docker run -it --name ena-img -p 8888:8888 -v pwd-data-folder:/home/insight/data insight-ena` 
 
